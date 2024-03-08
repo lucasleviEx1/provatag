@@ -16,5 +16,3 @@ describe('Validando compra com sucesso no SauceDemo', () => {
         cy.get('#checkout_complete_container > h2').contains('Thank you for your order!')
     })
 })
-
-SELECT * FROM Produtos WHERE Fornecedor = 'FornecedorTagPlus'
